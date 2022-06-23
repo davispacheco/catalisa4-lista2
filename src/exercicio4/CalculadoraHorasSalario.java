@@ -12,6 +12,6 @@ public class CalculadoraHorasSalario {
         double horasTrabalhadas = input.nextDouble();
         input.close();
         double salario = valorHora * horasTrabalhadas;
-      System.out.printf("O valor de seu salário mensal é de R$%.2f", salario);
+        System.out.printf("O valor de seu salário mensal é de R$%.2f", salario);
     }
 }

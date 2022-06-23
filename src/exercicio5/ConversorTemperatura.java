@@ -6,7 +6,7 @@ public class ConversorTemperatura {
 
     public static void main(String[] args) {
 
-Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         System.out.println("Informe a temperatura, em graus Fahrenheit:");
         double temperatura = input.nextDouble();
         input.close();
